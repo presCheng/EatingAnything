@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="@color/bgc" >
+
+        <ImageView
+            android:id="@+id/img_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5sp"
+            android:src="@drawable/caidan" />
+
+        <TextView
+            android:id="@+id/room_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/top_btn_dl"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/top_btn"
+            android:text="注册"
+            android:textColor="@android:color/white" >
+        </Button>
+
+        <Button
+            android:id="@+id/top_btn_zx"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_toLeftOf="@+id/top_btn_dl"
+            android:background="@drawable/top_btn"
+            android:text="注销"
+            android:textColor="#ffffff" >
+        </Button>
+    </RelativeLayout>
+
+</LinearLayout>

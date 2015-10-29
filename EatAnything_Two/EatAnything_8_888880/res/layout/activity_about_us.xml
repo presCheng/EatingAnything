@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include_about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/activity_top" >
+    </include>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="180sp" >
+
+        <ImageView
+            android:id="@+id/about_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:shadowColor="@android:color/darker_gray"
+            android:shadowDx="3"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text="@string/app_name"
+            android:textColor="@color/bgc"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/about_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="投诉电话:13009721960"
+            android:textSize="20sp"
+            android:textColor="@color/bgc"
+             />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/dotted_line" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="联系我们:13009721960"
+            android:textSize="20sp"
+            android:textColor="@color/bgc"
+             />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/dotted_line" />
+
+        <TextView
+            android:id="@+id/about_text_wel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroundabout"
+            android:padding="3dp"
+            android:text="欢迎页"
+            android:textSize="20sp"
+            android:textColor="@color/bgc"
+             />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/dotted_line" />
+
+        <TextView
+            android:id="@+id/about_text_qlhc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroundabout"
+            android:padding="3dp"
+            android:text="清理缓存"
+            android:textSize="20sp"
+            android:textColor="@color/bgc"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/dotted_line" />
+
+        <TextView
+            android:id="@+id/about_text_yjfk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroundabout"
+            android:padding="3dp"
+            android:text="意见与反馈"
+            android:textSize="20sp"
+            android:textColor="@color/bgc"
+             />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/copyright" />
+    </RelativeLayout>
+
+</LinearLayout>

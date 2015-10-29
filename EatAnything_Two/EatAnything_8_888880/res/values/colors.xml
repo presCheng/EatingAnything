@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <color name="background_hui">#F8F8F8</color>
+    <color name="background_touming">#00000000</color>
+    <color name="bgc">#34A4F9</color>
+    <color name="ebgc">#2653EE</color>
+    <color name="fbgc">#2AC6E5</color>
+    <color name="gray">#EBE9E9</color>
+    <color name="grayc">#9C9C9C</color>
+    <color name="fgray">#646566</color>
+    <color name="grayline">#F4F4F4</color>
+    <color name="red">#FF2525</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparents">#9f34A4F9</color>
+    <!-- LIST BORDER COLOR -->
+    <color name="rounded_container_border">#ffb7babb</color>
+    <!-- ITEM BACKGROUND COLOR - STATE - DEFAULT -->
+    <color name="base_start_color_default">#FFFFFF</color>
+    <color name="base_end_color_default">#FFFFFF</color>
+    <!-- ITEM BACKGROUND COLOR - STATE - PRESSED -->
+    <color name="base_start_color_pressed">#fffcfcfc</color>
+    <color name="base_end_color_pressed">#ffd7d7d7</color>
+    <!-- ITEM TEXT COLORS - STATES - PRESSED AND DEFAULT -->
+    <color name="text_color_default">#000000</color>
+    <color name="text_color_pressed">#ffffff</color>
+    <color name="rg_bg">#46E06C</color>
+    <color name="bgc">#34A4F9</color>
+    <color name="ebgc">#2653EE</color>
+    <color name="fbgc">#2AC6E5</color>
+    <color name="gray">#EBE9E9</color>
+    <color name="grayc">#9C9C9C</color>
+    <color name="fgray">#646566</color>
+    <color name="grayline">#F4F4F4</color>
+    <color name="red">#FF2525</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparents">#9f34A4F9</color>
+    <!-- LIST BORDER COLOR -->
+    <color name="rounded_container_border">#ffb7babb</color>
+    <!-- ITEM BACKGROUND COLOR - STATE - DEFAULT -->
+    <color name="base_start_color_default">#FFFFFF</color>
+    <color name="base_end_color_default">#FFFFFF</color>
+    <!-- ITEM BACKGROUND COLOR - STATE - PRESSED -->
+    <color name="base_start_color_pressed">#fffcfcfc</color>
+    <color name="base_end_color_pressed">#ffd7d7d7</color>
+    <!-- ITEM TEXT COLORS - STATES - PRESSED AND DEFAULT -->
+    <color name="text_color_default">#000000</color>
+    <color name="text_color_pressed">#ffffff</color>
+
+</resources>

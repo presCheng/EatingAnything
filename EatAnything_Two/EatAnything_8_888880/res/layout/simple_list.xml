@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/catalog"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:background="@color/gray"
+        android:paddingBottom="2dip"
+        android:paddingLeft="15dip"
+        android:paddingTop="2dip"
+        android:text="@string/cag"
+        android:textColor="#454545" />
+
+    <LinearLayout
+        android:id="@+id/catalog_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/grayline"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" >
+
+        <ImageView
+            android:id="@+id/list_img_home"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:contentDescription="@string/img"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/list_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_alignTop="@id/list_img_home"
+            android:layout_toRightOf="@id/list_img_home"
+            android:textColor="#000000"
+            android:textSize="20sp"
+             />
+        <LinearLayout 
+            android:id="@+id/list_linear_aixing"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_toRightOf="@id/list_img_home"
+            android:layout_alignBottom="@id/list_img_home">
+        <ImageView
+            android:id="@+id/list_img_aixing"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/kongxing"
+            android:focusable="false"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_toRightOf="@id/list_linear_aixing"
+            android:layout_alignBottom="@id/list_linear_aixing"
+            android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/list_img_xingxing1"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/xiaoxingxing" />
+        <ImageView
+            android:id="@+id/list_img_xingxing2"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/xiaoxingxing" />
+        
+	<ImageView
+            android:id="@+id/list_img_xingxing3"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/xiaoxingxing" />
+	
+	<ImageView
+            android:id="@+id/list_img_xingxing4"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/xiaoxingxing" />
+	</LinearLayout>
+        <ImageView
+            android:id="@+id/list_img_song"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignTop="@id/list_name"
+            android:layout_toRightOf="@id/list_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/img_song"
+            android:contentDescription="@string/img"/>
+		
+        <ImageView
+            android:id="@+id/list_img_shou"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignTop="@id/list_name"
+            android:layout_toRightOf="@id/list_img_song"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:contentDescription="@string/img"
+            />
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/youjiantou" />
+        
+    </RelativeLayout>
+
+</LinearLayout>

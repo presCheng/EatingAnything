@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:background="@color/transparent"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="124dp"
+            android:background="@drawable/bg_border"
+            android:orientation="vertical"
+            android:padding="1dp" >
+
+            <TextView
+                android:id="@+id/tel1"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:autoLink="phone"
+                android:background="@drawable/dialog_top"
+                android:ems="11"
+                android:gravity="center_horizontal"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip"
+                android:paddingTop="5.0dip"
+                android:textColorLink="@color/grayc"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/dotted_line" />
+
+            <TextView
+                android:id="@+id/tel2"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:autoLink="phone"
+                android:background="@drawable/dialog_middle"
+                android:gravity="center_horizontal"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip"
+                android:paddingTop="5.0dip"
+                android:textColorLink="@color/grayc"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/dotted_line" />
+
+            <TextView
+                android:id="@+id/tel3"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:autoLink="phone"
+                android:background="@drawable/dialog_bottom"
+                android:gravity="center_horizontal"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip"
+                android:paddingTop="5.0dip"
+                android:textColorLink="@color/grayc"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/bg_select_dialog"
+            android:gravity="center_horizontal"
+            android:text="@string/quxiao"
+            android:textColor="@color/red"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</FrameLayout>

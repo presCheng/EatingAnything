@@ -1,0 +1,11 @@
+INDEX VERSION 1.126+D:\Users\acer\andorid_workspaces\EatAnything_Two\.metadata\.plugins\org.eclipse.jdt.core
+1518123388.index
+3431450112.index
+3745138853.index
+2773091699.index
+1332299195.index
+549413979.index
+1531412002.index
+2869497668.index
+1024444474.index
+2259458108.index
